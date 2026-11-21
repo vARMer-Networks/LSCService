@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **LSCService is currently in beta.**
 >
-> Please report bugs, issues, or unexpected behavior on our [Discord Server](https://canary.discord.com/invite/MvVBbftUYm).
+> Please report bugs, issues, or unexpected behavior on our [Discord Server](https://canary.discord.com/invite/ZfgcEpMvu3).
 
 ## About
 
@@ -351,14 +351,30 @@ The module clones these internal objects rather than constructing the script ins
 | Argon build               | 🟡 In development |
 | Stability                 | 🟡 Beta           |
 
+## Third-Party Resources
+
+LSCService uses the following third-party projects:
+
+### [Luau²](https://gitlab.com/adiont/iterum/luau-squared) by [adiont](https://gitlab.com/adiont)
+
+Luau² is an experimental Luau runtime that enables runtime source compilation and execution inside ordinary Luau, without relying on native `loadstring` or native bytecode loading.
+
+LSCService incorporates Luau² as an alternative execution backend.
+
+**Original credit:** Full credit goes to **adiont**, the original creator and maintainer of Luau². LSCService does not claim authorship of Luau² or its underlying implementation.
+
+- **Original repository:** https://gitlab.com/adiont/iterum/luau-squared
+- **Version:** V3 (`main` branch)
+- **License:** MIT
+
+Please refer to the original repository for its source code, licensing details, and third-party notices.
+
 ## Contributing
 
 Found a bug or have an improvement?
 
 * Open an [issue](https://github.com/The-Bunker-Organization/LSCService/issues).
 * Fork the repository and submit your changes.
-* Discuss development and report bugs on the [Discord Server](https://canary.discord.com/invite/MvVBbftUYm).
-* For urgent questions, contact **[thebunkerproject@waifu.club](mailto:thebunkerproject@waifu.club)**.
 
 ## License
 
