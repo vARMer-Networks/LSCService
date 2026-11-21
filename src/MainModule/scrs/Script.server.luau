@@ -4,4 +4,4 @@ script:SetAttribute("Source", "")
 local LuauSquared = require(script:WaitForChild("_vLuau"))
 local runtime = LuauSquared.new()
 
-runtime:execute(source)
+runtime:load(source, nil, nil, getfenv())()

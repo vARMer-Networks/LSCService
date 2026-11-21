@@ -35,7 +35,7 @@ The generated script receives the supplied source code through its `Source` attr
 
 ## Installation
 
-Download a prebuilt module from the [Releases](https://github.com/The-Bunker-Organization/LSCService/releases) page, or build the project yourself with Rojo.
+Download a prebuilt module from the [Releases](https://github.com/vARMer-Networks/LSCService/releases) page, or build the project yourself with Rojo.
 
 After inserting the RBXM into your experience, require the `MainModule`.
 
@@ -316,7 +316,7 @@ rojo build default.project.json -o LSCService.rbxm
 rojo build default.project.json -o LSCService.rbxmx
 ```
 
-Prebuilt files are available through the [Releases](https://github.com/The-Bunker-Organization/LSCService/releases) page.
+Prebuilt files are available through the [Releases](https://github.com/vARMer-Networks/LSCService/releases) page.
 
 ## Project Structure
 
@@ -373,7 +373,7 @@ Please refer to the original repository for its source code, licensing details, 
 
 Found a bug or have an improvement?
 
-* Open an [issue](https://github.com/The-Bunker-Organization/LSCService/issues).
+* Open an [issue](https://github.com/vARMer-Networks/LSCService/issues).
 * Fork the repository and submit your changes.
 
 ## License
